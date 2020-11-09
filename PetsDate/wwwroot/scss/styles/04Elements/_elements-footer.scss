@@ -1,0 +1,46 @@
+﻿@import '../01Settings/_settings-colors.scss';
+@import '../02Tools/_settings-breakpoints.scss';
+
+footer {
+    background-color: $secondary-600;
+    padding: 1rem 1rem;
+}
+
+footer div {
+    color: $gray-800;
+
+
+    @include for-phone-only {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    @include for-tablet-portrait-up {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    @include for-tablet-landscape-up {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    @include for-desktop-up {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    @include for-big-desktop-up {
+        font-size: 1rem;
+        text-align: center;
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+footer div a {
+    color: $gray-800;
+    text-decoration: none;
+}

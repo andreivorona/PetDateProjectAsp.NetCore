@@ -1,0 +1,30 @@
+﻿//01Settings, colors values, breakpoints resolution,
+
+@import 'styles/01Settings/_settings-colors.scss';
+
+
+//02 tools, mixins and functions
+
+@import 'styles/02Tools/_settings-breakpoints.scss';
+
+//03 generic, normalizer for all browsers 
+
+@import 'styles/03Generic/_generic-normalizer.scss';
+
+//04 elements, stilirization html, buttons, a, h
+
+@import 'styles/04Elements/_elemments-header-colors.scss';
+
+@import 'styles/04Elements/_elements-footer.scss';
+
+//05 objects, class-based selectors, parameters of container
+@import 'styles/05Objects/_objects-header-navigation.scss';
+
+//06 components, specific UI components
+
+//07 utilities, utilities and helper classes
+//with ability to override anything, hide helper class
+
+
+
+

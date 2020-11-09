@@ -1,0 +1,13 @@
+﻿@import '../01Settings/_settings-colors.scss';
+
+header {
+    background-color: $primary-50;
+}
+
+header a {
+    color: $gray-800;
+}
+
+header a:hover {
+    color: $blue-800;
+}

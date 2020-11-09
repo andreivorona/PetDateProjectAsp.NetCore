@@ -1,0 +1,169 @@
+﻿@import '../02Tools/_settings-breakpoints.scss';
+@import '../01Settings/_settings-colors.scss';
+
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    @include for-desktop-up {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    @include for-big-desktop-up {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    text-decoration: none;
+
+    @include for-desktop-up {
+        padding: 0;
+        margin: 0;
+    }
+
+    @include for-big-desktop-up {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+header {
+    @include for-phone-only {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @include for-tablet-portrait-up {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @include for-tablet-landscape-up {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    @include for-desktop-up {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    @include for-big-desktop-up {
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.objects-header-navigation {
+    @include for-phone-only {
+        text-align: center;
+    }
+
+    @include for-tablet-portrait-up {
+        text-align: center;
+    }
+
+    @include for-tablet-landscape-up {
+        text-align: center;
+    }
+
+    @include for-desktop-up {
+        text-align: unset;
+    }
+
+    @include for-big-desktop-up {
+        text-align: unset;
+    }
+}
+
+.objects-header-navigation-div {
+    @include for-desktop-up {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    @include for-big-desktop-up {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+.navbar-brand {
+    @include for-phone-only {
+        font-size: 3rem;
+    }
+
+    @include for-tablet-portrait-up {
+        font-size: 3rem;
+    }
+
+    @include for-tablet-landscape-up {
+        font-size: 3rem;
+    }
+
+    @include for-desktop-up {
+        font-size: 1rem;
+    }
+
+    @include for-big-desktop-up {
+        font-size: 1rem;
+    }
+}
+
+
+.nav-item {
+    @include for-phone-only {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+
+    @include for-tablet-portrait-up {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+
+    @include for-tablet-landscape-up {
+        font-size: 3rem;
+        margin: 1rem 0;
+    }
+
+    @include for-desktop-up {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+
+    @include for-big-desktop-up {
+        font-size: 1rem;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+
+
+
+
+

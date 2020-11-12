@@ -1,0 +1,12 @@
+﻿@import '../01Settings/_settings-colors.scss';
+@import '../02Tools/_settings-breakpoints.scss';
+
+p {
+    @include for-big-desktop-up {
+        font-size: 1.6rem;
+    }
+
+    @include for-desktop-up {
+        font-size: 1.4rem;
+    }
+}

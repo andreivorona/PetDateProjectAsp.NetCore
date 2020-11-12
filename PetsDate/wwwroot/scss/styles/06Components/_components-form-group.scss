@@ -1,0 +1,24 @@
+﻿@import '../01Settings/_settings-colors.scss';
+@import '../02Tools/_settings-breakpoints.scss';
+
+.form-group {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 1rem;
+    text-align: center;
+}
+
+.form-group label {
+    font-size: 2rem;
+}
+
+.form-group button {
+    font-size: 2rem;
+}
+
+.form-group a {
+    font-size: 2rem;
+}

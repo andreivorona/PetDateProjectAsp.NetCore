@@ -21,6 +21,26 @@
 
 .nav-link {
     text-decoration: none;
+
+    @include for-phone-only {
+        font-size: 1.5rem;
+    }
+
+    @include for-tablet-portrait-up {
+        font-size: 2rem;
+    }
+
+    @include for-tablet-landscape-up {
+        font-size: 2.5rem;
+    }
+
+    @include for-desktop-up {
+        font-size: 1rem;
+    }
+
+    @include for-big-desktop-up {
+        font-size: 1rem;
+    }
 }
 
 .navbar-brand {
@@ -112,15 +132,15 @@ header {
 
 .navbar-brand {
     @include for-phone-only {
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 
     @include for-tablet-portrait-up {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     @include for-tablet-landscape-up {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     @include for-desktop-up {

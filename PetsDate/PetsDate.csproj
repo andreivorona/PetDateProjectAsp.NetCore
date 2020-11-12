@@ -18,8 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\scss\styles\06Components\" />
-    <Folder Include="wwwroot\scss\styles\07Utilities\" />
     <Folder Include="wwwroot\Images\" />
   </ItemGroup>
 

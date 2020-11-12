@@ -1,0 +1,31 @@
+﻿@import '../01Settings/_settings-colors.scss';
+@import '../02Tools/_settings-breakpoints.scss';
+
+button {
+    color: white;
+    background-color: $green;
+    border-radius: 3rem;
+    padding: 1rem;
+    box-shadow: 0 0 10px $green;
+
+    @include for-phone-only {
+        width: 100%;
+        font-size: 1.5rem;
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
+
+    @include for-tablet-portrait-up {
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
+
+    @include for-tablet-landscape-up {
+        width: 100%;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 32px;
+    }
+}

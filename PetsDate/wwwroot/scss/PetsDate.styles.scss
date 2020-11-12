@@ -19,12 +19,19 @@
 
 //05 objects, class-based selectors, parameters of container
 @import 'styles/05Objects/_objects-header-navigation.scss';
-
+@import 'styles/05Objects/_objects-text-center.scss';
 //06 components, specific UI components
+
+@import 'styles/06Components/_components-form-group.scss';
 
 //07 utilities, utilities and helper classes
 //with ability to override anything, hide helper class
 
+@import 'styles/07Utilities/_utilities-buttons-styles.scss';
+@import 'styles/07Utilities/_utilities-paragraph-styles.scss';
+@import 'styles/07Utilities/_utilities-input-form-controll.scss';
+@import 'styles/07Utilities/_utilities-h-font-size.scss';
+@import 'styles/07Utilities/_utilities-label-font-size.scss';
 
 
 

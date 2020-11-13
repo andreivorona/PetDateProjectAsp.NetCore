@@ -9,16 +9,15 @@
     grid-template-rows: 1fr 1fr;
     row-gap: 1rem;
     text-align: center;
+
+    @include for-desktop-up {
+        justify-items: center;
+    }
+
+    @include for-big-desktop-up {
+        justify-items: center;
+    }
 }
 
-.form-group label {
-    font-size: 2rem;
-}
 
-.form-group button {
-    font-size: 2rem;
-}
 
-.form-group a {
-    font-size: 2rem;
-}
